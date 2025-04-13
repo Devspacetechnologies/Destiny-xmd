@@ -9,7 +9,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
   if (cmd === 'anticall') {
-    if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
+    if (!isCreator) return m.reply("*📛 ONLY DESTINY XMD OWNER CAN USE THIS COMAND*");
     let responseMessage;
 
     if (text === 'on') {
